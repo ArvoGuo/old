@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+
+body{
+ 	
+	background:url(../images/blue.jpg) repeat;
+
+
+}
+#orderList ul li{
+list-style:none;
+}
+#orderList table {
+border-collapse:collapse;
+TBBLE-LBYOUT: fixed;
+word-wrap:break-word;
+border-style:solid;
+font-size:14px;}
+
+
+#orderList table  tr {
+border-collapse:collapse;
+}
+#orderList table  tr td{
+
+border-collapse:collapse;
+
+}
+.submitButton{
+margin-left:100px;
+}
+.userCenterOrder{
+	margin-left:20px;
+	width:800px;
+	
+}
+.orderUp{
+	width:800px;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.cssbg{
+
+	border:2px solid #ffffff;
+	position:relative;
+	background:#ffffff;
+	border-radius: 10px 10px 10px 10px;
+	
+	border-color: rgba(82, 168, 236, 0.8);
+	box-shadow: inset 0 10px 50px rgba(0, 0, 0, 0.075),0 0 8px rgba(82, 168, 236, 0.6);
+	color:#333;
+font-size: 15px;
+font-weight: normal;
+line-height: 18px;
+	text-align:center;
+}
+.typetitle{
+	margin:0px 0px 0px 340px;
+	font-family:华文行楷;
+font-size:45px;
+line-height:34px;
+text-shadow:1px 1px 1px #ffffff;
+color: #369;
+}
+.page  li{
+	float:left;
+	list-style:none;
+	text-decoration:none;
+	
+}

@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+a,img{border:0;}
+
+.row-bot{width:100%;min-height:20px;background:url(../images/row-bot-tail2.gif) center top repeat-x;}
+.row-bot{background-image:url(../images/row-bot-tail.gif)}
+.center-shadow{width:100%;height:100%;min-height:20px;background:url(../images/center-shadow2.jpg) center top no-repeat; margin:0 auto;}
+.center-shadow{background:url(../images/center-shadow.png) center top no-repeat}
+
+.carousel-container{position:relative;width:960px;margin:0 auto;}
+#carousel{height:400px;width:960px;position:relative;}
+.carousel-image{border:0;display:block;
+width:250px;
+height:300px;
+overflow:hidden;
+}
+.carousel-feature{position:absolute;top:-1000px;left:-1000px;cursor:pointer;}

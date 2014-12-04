@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/markdown.css">
+	<title>分享组件6.8</title>
+</head>
+<body>
+	<button id ='share' style='margin:100px 100px;'>分享</button>
+</body>
+<script src ="../js/jquery.js"></script>
+<script src ="share.v6.81.js" ></script>
+<script>
+ 	  var shareUrl = location.href.replace(/([?&]token=)[^&?]*/ig, "$1*").replace(/([?&]version=)[^&?]*/ig, "$1*");
+      var shareImg = 'http://i1.dpfile.com/static/events/biz/bishengke_wx.png';
+      var shareWX = {
+        appid: 'wx841a97238d9e17b2',
+        title: '1分享的标题',
+        desc: '分享的描述',
+        link: shareUrl, //Wx
+        url: shareUrl, //DpApp
+        img_url: shareImg, //wx
+        image: shareImg //DpApp
+      };
+      var shareWXTL = $.extend({},shareWX);
+      shareWXTL.title = shareWX.desc;
+      var shareApp={
+      	title: '分享朋友的标题以及分享朋友圈的标题',
+        desc: '分享的描述',
+        link: shareUrl, //Wx
+        url: shareUrl, //DpApp
+        img_url: shareImg, //wx
+        image: shareImg //DpApp
+      };
+      $('#share').on('click',function(e){
+      	share_Wx_Dp_Attach(shareApp);
+      })
+      
+
+</script>
+</html>
